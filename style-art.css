@@ -1,0 +1,112 @@
+.display-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10vh 5vw 0 5vw;
+    width: 90vw;
+    height: 80vh;
+}
+.spotify-buttons {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.spotify-buttons a img {
+    height: 20px;
+    opacity: 0.5;
+    top: -50%;
+    transform: translate(0, 50%);
+    transition: 0.4s;
+}
+
+.slideshow-container img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: auto;
+    max-height: 60vh;
+}
+
+.slideshow-container a img:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.prev {
+    position: relative;
+    left: 20px;
+}
+
+.next {
+    position: relative;
+    left: 161px;
+}
+
+#pause {
+    height: 40px;
+}
+
+.img-caption {
+    position: absolute;
+    bottom: 8vh;
+    margin-left: 220px;
+}
+
+.img-caption h1 {
+    font-size: 1.2rem;
+}
+
+.img-caption p {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
+
+.back-button {
+    position: absolute;
+    bottom: 10px;
+}
+
+.back-button a {
+    margin: 10px;
+    font-size: 1rem;
+    color: black;
+    text-shadow: 1px 1px #8ae7ff;
+    transition: 0.4s;
+}
+
+.back-button a:hover {
+    text-shadow: none;
+    transition: 0.4s;
+    color: #8ae7ff;
+}
+
+.slides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+

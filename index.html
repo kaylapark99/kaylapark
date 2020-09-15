@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-header.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
+  <title>Kayla Park</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#header').load('reuseNav.html');
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid my-container">
+    <div id="header"></div>
+
+
+    
+    <div class="home">
+      <video autoplay muted loop id="stars">
+        <source src="media/Stars.mp4" type="video/mp4"> 
+      </video>
+      <div class ="title-container inner-flex">
+        <div class="row">
+          <div class="col-lg-3 col-md-1 col-sm-2 col-1">
+          </div>
+          <div class="col">
+            <h1 id="name">Kayla, The Creator</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-1 col-sm-2 col-1">
+          </div>
+          <div class="col-0.5">
+            <div class="graphics">
+              <svg class="home-graphics shapes">
+                <circle cx="1vw" cy="1.9rem" r="0.5vw" fill="white"/>
+                <circle cx="1vw" cy="4rem" r="0.5vw" fill="white"/>
+                <circle cx="1vw" cy="7rem" r="0.5vw" fill="white"/>
+                <circle cx="1vw" cy="11rem" r="0.5vw" fill="white"/>
+                <circle cx="1vw" cy="16.5rem" r="0.5vw" fill="white"/>
+                <rect x="0.5vw" y="16.5rem" width="1vw" height="60vh" style="fill:white"/>  
+              </svg>
+            </div>
+          </div>
+          <div class="col">
+            <div id="type-creations" class="flex">
+              <p class="header-sub-title" id="word"></p><p class="header-sub-title blink">|</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mission" id="mission">
+      <div class="mission-container inner-flex">
+        <div class="row">
+          <div class="col-lg-3 col-md-1 col-sm-2 col-1">
+          </div>
+          <div class="col-0.5">
+            <div class="graphics">
+              <svg class="mission-graphics shapes">
+                <rect x="0.5vw" y="0rem" width="1vw" height="79vh" style="fill:black"/>
+              </svg>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mission-text-container">
+              <div class="mission-text">
+                <h4>duality of code & art</h4>
+                <div class="mission-bio">
+                  <p>The creation of a website is more than  
+                    building and uploading pages to the internet. 
+                  </p>
+                  <p>The creation of a website is a challenge. 
+                  A challenge to test how far I can push my 
+                  artistic and coding abilities to construct 
+                  an interactive and effective work of art.
+                  </p>
+                </div>
+                <p id="about-link">care to learn more <a onclick="openAbout()" class="link-cursor">about me?</a></p>
+                <p>or scroll to see my creations :)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="creations"> 
+
+      <div class="row">
+        <div class="col-md-6 no-padding">
+          <div class="code">
+            <img src="media/leftinverse.png" id="code-drawing" class="hand center-content">
+            <a onclick="openCode()" class="link-cursor" id="code-link">
+              <div id="leftCode" class="creation-border center-content">
+                <h5 class="creation-text">code</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 no-padding">
+          <div class="art">
+            <img src="media/right.png" id="art-drawing" class="hand center-content">
+            <a onclick="openArt()" class="link-cursor" id="art-link">
+              <div id="rightArt" class="creation-border art-border center-content">
+                <h5 class="creation-text">art</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="contact row" id="contact">
+
+
+        <div class="col-lg-6 col-md-6 no-padding contact-content">
+   
+            <p>i love to create...</p>
+            <h6>and would love to create something beautiful for you</h6>
+            <p>or we can just talk</p>
+            <p>i love that too!</p>
+         
+        </div>
+        <div class="col-lg-6 col-md-6 no-padding contact-content contact-links">
+  
+            <a href="mailto:kpark@colgate.edu"><h6 id="email">kpark@colgate.edu</h6></a>
+            <p class="link-cursor" onclick="javascript: window.open('media/Kayla-Park-Resume.pdf', '_blank');">oh here's my <a id="resume">resumé</a> while you're at it</p>
+            <div class="socials">
+              <a onclick="javascript: window.open('https://www.linkedin.com/in/kaylapark/', '_blank');" class="link-cursor"><img src="media/linkedin.png"></a>
+              <a onclick="javascript: window.open('https://github.com/kaylapark99', '_blank');" class="link-cursor"><img src="media/github.png"></a>
+              <a onclick="javascript: window.open('https://www.instagram.com/kaylapark.11/', '_blank');" class="link-cursor"><img src="media/instagram.png"></a>
+              <a onclick="javascript: window.open('https://www.facebook.com/profile.php?id=100006349350842', '_blank');" class="link-cursor"><img src="media/facebook.png"></a>
+              <a onclick="javascript: window.open('https://open.spotify.com/user/kaylapark99?si=ebhSBrCHTrK425lLShs3CA', '_blank');" class="link-cursor"><img src="media/spotify.png"></a>
+            </div>
+   
+           
+        
+        </div>
+
+    </div>
+  
+  </div>
+
+  
+  <script src="scripts.js"></script>
+  <script src="scriptsNav.js"></script>
+</body>
+
+</html>

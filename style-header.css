@@ -1,0 +1,163 @@
+:root {
+    --mainColor: #8ae7ff;
+}
+  
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.my-container {
+    padding: 0;
+}
+
+.my-container a {
+    text-decoration: none;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    width: 100%;
+}
+.col{
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+header {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+header h3 a {
+    margin: 10px;
+    color: var(--mainColor);
+}
+  
+header a:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--mainColor);
+    transition-duration: 0.4s;
+}
+  
+@supports not(-webkit-text-stroke: 0.5px red) {
+    a:hover {
+      text-shadow:
+        0.5px 0.5px 0 var(--mainColor),
+        -0.5px -0.5px 0 var(--mainColor),
+        0.5px -0.5px 0 var(--mainColor),
+        -0.5px 0.5px 0 var(--mainColor),
+        0.5px 0.5px 0 var(--mainColor);
+    }
+}
+
+.nav-link {
+    width: 50px;
+    margin-right: 10px;
+    float: right;
+}
+
+.nav-link div{
+    height: 3px;
+    margin: 5px;
+    background-color: #8ae7ff;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.nav1 {
+    width: 25px;
+}
+
+.nav2 {
+    width: 20px;
+}
+
+.nav-link:hover div {
+    width: 25px;
+}
+
+#close-button {
+    display: none;
+}
+
+#close-button div {
+    width: 25px;
+    margin: -3px 0;
+    transition: 0.4s;
+}
+
+#close-button:hover div {
+    margin: 3px 0;
+    transform: rotate(0deg);
+}
+
+.closenav1 {
+    transform: rotate(45deg);
+}
+
+.closenav2 {
+    transform: rotate(-45deg);
+}
+
+.overlay {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay-open {
+    opacity: 1;
+    display: inline;
+}   
+
+.overlay-closed {
+    opacity: 0;
+    display: none;
+}
+
+.nav-options {
+    list-style-type: none;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-options a {
+    color: white;
+    opacity: 0.5;
+}
+
+.link-cursor {
+    cursor: pointer;
+}

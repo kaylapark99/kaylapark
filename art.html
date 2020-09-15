@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayla Park - Art</title>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" href="style-header.css">
+  <link rel="stylesheet" href="style-pages.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#header').load('reuseNav.html');
+    });
+  </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="main-pages">
+      <img src="media/camera.png" class="side-img" id="camera">
+      <div class="main-container">
+        <div class="art-intro">
+          <div class="pages-header art-header">
+            <h1>photography &</h1>
+            <h1>some drawings</h1>
+          </div>
+          <div class="art-info">
+            <p>
+              In seventh grade, I stole my mom's DSLR to pursue my passion for photography. Not going to lie, 
+              those photos were terrible. Very terrible. Despite how awful those photos were, my parents saw potential 
+              and bought me my own Nikon, and I still use the same camera today. I eventually began to dapple with film photography and sketching.
+            </p>
+            <p>
+              Whether I am editing in Photoshop, developing in the dark room, or doodling in my sketchbook,
+              I blast music to block out the stress of everyday life. It is just me, my spotify playlists, and my art. 
+            </p>
+            <p>
+              <strong>I have divided my art based off of my spotify playlists.</strong> Each collection has specific emotions that match the songs 
+              of the associated playlist. Simply scan (using the Spotify app) or click on the spotify tag to vibe to some music while perusing my artwork. Enjoy :)
+            </p>
+            <p>
+              P.S. I have included undeveloped film...  maybe one day I will actually devlop them.
+              I used the app FilmBox to invert and scan the negatives, hence the low quality.
+            </p>
+          </div>
+        </div>
+
+        <div class="art-container">
+          <div class="art-section" id="sleeping-lessons">
+            <div class="art-section-info info-right">
+              <div class="offset-border border-left">
+                <h2><a onclick="javascript: window.location = 'sleepinglessons.html';" class="link-cursor">sleeping lessons</a></h2>
+                <a onclick="javascript: window.open('https://open.spotify.com/playlist/1g4eS315oeSJumHrjFUCTr?si=fp3lP9cyQjGFxaROEMZ9SA', '_blank');" class="link-cursor"><img src="media/sleepingSpotifyTag.png"></a>
+              </div>
+            </div>
+            <img src="artwork/comforting/sunsetPortrait.jpg" class="section-photo left">
+          </div>
+          <div class="art-section" id="aMoment">
+            <div class="art-section-info info-left">
+              <div class="offset-border border-right">
+                <h2><a onclick="javascript: window.location = 'aMoment.html';" class="link-cursor">a moment apart</a></h2>
+                <a onclick="javascript: window.open('https://open.spotify.com/playlist/573bficG5E5uJaKjHWBgSK?si=sMcuo4oUTuqJpvKkPyiEPw', '_blank');" class="link-cursor"><img src="media/aMomentSpotifyTag.png"></a>  
+              </div>
+            </div>
+            <img src="artwork/dreaming/waterfall1.jpg" class="section-photo right">
+          </div>
+          <div class="art-section" id="last-flowers">
+            <div class="art-section-info info-right">
+              <div class="offset-border border-left">
+                <h2><a onclick="javascript: window.location = 'lastflowers.html';" class="link-cursor">last flowers</a></h2>
+                <a onclick="javascript: window.open('https://open.spotify.com/playlist/3Y4uxpm8vvFlnqOY40K5EK?si=_M3lHEMzTwiTs1ygklNaWw', '_blank');" class="link-cursor"><img src="media/lastFlowersSpotifyTag.png"></a>
+              </div>
+            </div>
+            <img src="artwork/depression/portraits3.jpg" class="section-photo left">
+          </div>
+          <div class="art-section" id="fluorescent">
+            <div class="art-section-info info-left">
+              <div class="offset-border border-right">
+                <h2><a onclick="javascript: window.location = 'fluorescent.html';" class="link-cursor">fluorescent adolescent</a></h2>
+                <a onclick="javascript: window.open('https://open.spotify.com/playlist/4yP6v7N5cpYOtocbXmyEEU?si=Yw7LfL6EQ9-0TyHJN_xRIA', '_blank');" class="link-cursor"><img src="media/fluorescentSpotifyTag.png"></a>
+              </div>
+            </div>
+            <img src="artwork/fluorescent/nature6.jpg" class="section-photo right">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="back-button">
+        <a onclick="javascript: window.location = 'index.html#art-link';" class="link-cursor">return</a>
+      </div>
+
+    </div>
+
+    <script src="scriptsNav.js"></script>
+</body>
+</html>

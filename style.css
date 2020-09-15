@@ -1,0 +1,303 @@
+.home, .contact, .creations {
+    height: 100vh;
+}
+
+.mission {
+    height: 120vh;
+}
+
+.home {
+    overflow: hidden;
+}
+
+#stars {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.inner-flex {
+    position: absolute;
+    overflow: hidden;
+}
+
+.title-container {
+    top: 33vh;
+    height: 67vh;
+    width: 100%;
+}
+
+#name {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.graphics {
+    padding-right: 2vw;
+}
+
+.shapes {
+    width: 1.5vw;
+}
+
+.home-graphics {
+    height: 66vh;
+}
+
+#type-creations {
+    font-size: 1.3rem; 
+}
+
+.blink {
+    animation: blink 0.5s infinite;
+  }
+  @keyframes blink{
+    to { opacity: .0; }
+  }
+  .flex {
+      display: flex;
+  }
+  .header-sub-title {
+    color: #fff;
+  }
+
+.mission {
+    z-index: 3;
+    background-color: #fff;
+    overflow: visible;
+}
+
+.mission-container {
+    width: 100%;
+    z-index: 2;
+}
+
+.mission-text-container {
+    height: 100%;
+}
+
+
+.mission-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.mission-text h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #8ae7ff;
+}
+
+.mission-bio {
+    margin-bottom: 50px;
+}
+
+.mission p {
+    width: 250px;
+    margin: 0;
+}
+
+.mission p a {
+    color: black;
+    text-shadow: none;
+}
+
+#about-link a {
+    text-shadow: 1px 1px #8ae7ff;
+    transition: 0.4s;
+}
+
+#about-link a:hover {
+    text-shadow: none;
+    color: #8ae7ff;
+    transition: 0.4s;
+}
+
+.mission-graphics {
+    height: 80vh;
+}
+
+.horizontal {
+    position: absolute;
+    bottom: -7px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.code {
+    background-color: #000;
+    height: 50vh;
+}
+
+.art {
+    height: 50vh;
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.creation-border {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 6px 6px #8ae7ff;;
+    text-shadow: 4px 4px #8ae7ff;
+}
+
+.art-border {
+    border-color: #000;
+}
+
+.creation-text {
+    padding-top: 10px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 3.5rem;
+}
+
+.code a {
+    color: white;
+}
+
+.art a {
+    color: black;
+}
+
+.creation-hover {
+    border-radius: 150px;
+    color: #8ae7ff;
+    border-color: #8ae7ff;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.hand {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.contact {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+.contact-content {
+    width: 100%;
+    height: 50vh;
+    padding: 50px;
+}
+
+.contact-content h6 {
+    position: relative;
+    font-size: 1.8rem;
+    line-height: 1;
+    padding: 25px 0;
+}
+
+.contact-content p {
+    font-size: 1rem;
+}
+
+.contact-links {
+    text-align: center;
+    position: relative;
+}
+
+.contact-links p {
+    padding-top: 20px;
+}
+
+.contact-links a {
+    color: #fff;
+}
+
+#email {
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    padding-bottom: 8px;
+    transition: 1s;
+}
+
+#email:hover {
+    color: #8ae7ff;
+    border-color: #8ae7ff;
+    transition: 1s;
+}
+
+.contact-links p, .socials img{
+    opacity: 0.7;
+    transition-duration: 0.3s;
+}
+
+#resume {
+    text-decoration: underline;
+}
+
+.contact-links p:hover, .socials img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.socials {
+    padding-top: 50px;
+}
+
+.socials img {
+    width: 35px;
+    margin: 0 2.5px;
+}
+
+
+
+@media (min-width: 576px) {
+    #name {
+        font-size: 3rem;
+    }
+
+    #type-creations {
+        font-size: 1.8rem;
+    }
+
+    .contact-content p {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width: 768px) { 
+    #name {
+        font-size: 4.5rem;
+    }
+
+    #type-creations {
+        font-size: 2.5rem;
+    }
+
+    .mission p {
+        width: 400px;
+    }
+
+    .code, .art {
+        height: 100vh;
+    }
+
+    .creation-text {
+        font-size: 5rem;
+    }
+
+    .creation-border {
+        width: 300px;
+        height: 300px;
+    }
+
+}

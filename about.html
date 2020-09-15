@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayla Park - About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" href="style-header.css">
+  <link rel="stylesheet" href="style-pages.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#header').load('reuseNav.html');
+    });
+  </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="main-pages">
+        <div class="main-container">
+            <div class="intro-container">
+                <div class="pages-header name">
+                    <h1 id="first-name">kayla</h1>
+                    <h1 id="last-name">park</h1>
+                </div>
+                <div class="images">
+                    <img src="media/about-pics.png" id="sf-pics">
+                </div>
+            </div>
+            <div class="about-info-container">
+                <div class="about-info1">
+                    <h2>about me</h2>
+                    <h3>hello, so happy you're here!</h3>
+                    <div class="about-p">
+                        <p>I'm a senior at Colgate University majoring in <strong>Computer Science</strong> and minoring in <strong>Art.</strong></p>
+                        <p>I am fascinated by the limitlessness of both code and art. I have the ability 
+                        to experiment with any medium to develop and design user experiences that bring your ideas to life. Isn't that neat?</p>
+                    </div>
+                    <div class="mediums">
+                        <p id="info-code"><strong>Code:</strong></p>
+                        <p> Python, Java, C, HTML/CSS, Javascript</p>
+                        <p><strong>Art:</strong></p>
+                        <p>Adobe Photoshop, Digital/Film Photography, Collage, Pencil, Pen</p>
+                    </div>
+                </div>
+                <div class="about-info2">
+                    <img src="media/self-drawing.png">
+                </div>
+            </div>
+            <div class="powered-container">
+                <div class="powered-by">
+                    <p><strong>This site is powered by HTML/CSS, Javascript, a lot of caffeine, and this spotify playlist</strong></p>
+                    <a onclick="javascript: window.open('https://open.spotify.com/playlist/5RHWChDKOvMi60u5VPZRYe?si=XD1R7RxnS827gJFpT0JkKA', '_blank');" class="link-cursor"><img src="media/spotifytag.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="back-button">
+            <a onclick="javascript: window.location = 'index.html#mission';" class="link-cursor">return</a>
+        </div>
+
+    </div>
+
+
+    <script src="scriptsNav.js"></script>
+</body>
+
+</html>
