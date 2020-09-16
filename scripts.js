@@ -58,7 +58,7 @@ typingEffect();
     element.addEventListener("mouseout", function() {
         element.classList.remove("creation-hover");
         if(element.isSameNode(leftCode)) {
-			codeDrawing.src = "media/leftinverse.png";
+			codeDrawing.src = "media/leftInverse.png";
 			codeLink.style.color = "white";
         }
         else {
