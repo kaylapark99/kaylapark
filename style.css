@@ -32,7 +32,7 @@
 }
 
 .graphics {
-    padding-right: 2vw;
+    padding-right: 3vw;
 }
 
 .shapes {
@@ -192,24 +192,32 @@
 
 .contact-content {
     width: 100%;
-    height: 50vh;
-    padding: 50px;
-}
-
-.contact-content h6 {
     position: relative;
-    font-size: 1.8rem;
-    line-height: 1;
-    padding: 25px 0;
 }
 
-.contact-content p {
-    font-size: 1rem;
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-intro {
+    text-align: center;
+}
+
+.contact-text h6 {
+    font-size: 1.6rem;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.contact-text p {
+    font-size: 0.9rem;
 }
 
 .contact-links {
     text-align: center;
-    position: relative;
 }
 
 .contact-links p {
@@ -252,8 +260,8 @@
 }
 
 .socials img {
-    width: 35px;
-    margin: 0 2.5px;
+    width: 30px;
+    margin: 0 4px;
 }
 
 
@@ -269,6 +277,19 @@
 
     .contact-content p {
         font-size: 1rem;
+    }
+
+    .contact-text h6 {
+        font-size: 2.5rem;
+    }
+
+    .contact-text p {
+        font-size: 1.2rem;
+    }
+
+    .socials img {
+        width: 35px;
+        margin: 0 7px;
     }
 
 }
@@ -300,4 +321,35 @@
         height: 300px;
     }
 
+    .contact-intro {
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 992px) { 
+    #name {
+        font-size: 6rem;
+    }
+
+    .mission-text h4 {
+        font-size: 3rem;
+    }
+
+    .mission-text p {
+        font-size: 1.1rem;
+    }
+
+    .contact-text h6 {
+        font-size: 2.8rem;
+    }
+
+    .contact-text p {
+        font-size: 1.3rem;
+    }
+
+    .socials img {
+        width: 50px;
+        margin: 0 10px;
+    }
 }

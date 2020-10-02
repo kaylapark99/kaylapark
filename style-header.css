@@ -26,18 +26,6 @@ body {
     text-decoration: none;
 }
 
-.row {
-    margin: 0;
-    padding: 0;
-    border: 1px solid red;
-    width: 100%;
-}
-.col{
-    margin: 0;
-    padding: 0;
-    border: 1px solid blue;
-}
-
 .no-padding {
     padding: 0;
 }
@@ -49,10 +37,10 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    padding: 10px;
 }
 
 header h3 a {
-    margin: 10px;
     color: var(--mainColor);
 }
   
@@ -75,7 +63,6 @@ header a:hover {
 
 .nav-link {
     width: 50px;
-    margin-right: 10px;
     float: right;
 }
 
@@ -148,6 +135,7 @@ header a:hover {
     font-size: 4rem;
     font-weight: 700;
     position: absolute;
+    width: 100vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

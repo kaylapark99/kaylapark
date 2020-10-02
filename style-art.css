@@ -16,49 +16,48 @@
     bottom: 0px;
     left: 50%;
     transform: translate(-50%, 0);
-    min-width: 200px;
-    min-height: 50px;
+    width: 250px;
+    min-height: 150px;
 }
 
 .spotify-buttons a img {
-    height: 20px;
-    opacity: 0.5;
-    top: -50%;
-    transform: translate(0, 50%);
+    width: 50px;
+    height: auto;
     transition: 0.4s;
+}
+
+.stop-hover {
+    opacity: 0.5;
+}
+
+.hover-button {
+    opacity: 1;
+}
+
+.prev {
+    position: relative;
+}
+
+.next {
+    position: relative;
+    left: 250px;
 }
 
 .slideshow-container img {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.photograph {
     width: auto;
     max-height: 60vh;
-}
-
-.slideshow-container a img:hover {
-    opacity: 1;
-    transition: 0.4s;
-}
-
-.prev {
-    position: relative;
-    left: 20px;
-}
-
-.next {
-    position: relative;
-    left: 161px;
-}
-
-#pause {
-    height: 40px;
 }
 
 .img-caption {
     position: absolute;
     bottom: 8vh;
-    margin-left: 220px;
+    margin-left: 50px;
 }
 
 .img-caption h1 {
