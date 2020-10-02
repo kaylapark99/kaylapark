@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kayla Park - About</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
-  <link rel="stylesheet" href="style-header.css">
   <link rel="stylesheet" href="style-pages.css">
+  <link rel="stylesheet" href="style-header.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(function(){
@@ -16,20 +17,14 @@
 </head>
 
 <body>
-    <div id="header"></div>
-    <div class="main-pages">
+    <div class="container-fluid my-container">
+        <div id="header"></div>
         <div class="main-container">
-            <div class="intro-container">
-                <div class="pages-header name">
-                    <h1 id="first-name">kayla</h1>
-                    <h1 id="last-name">park</h1>
-                </div>
-                <div class="images">
-                    <img src="media/about-pics.png" id="sf-pics">
-                </div>
+            <div class="row">
+                <img src="media/about-pics.png" id="me-pics">
             </div>
-            <div class="about-info-container">
-                <div class="about-info1">
+            <div class="about-info-container row">
+                <div class="about-info1 col-xl-6 col-lg-10 col-md-10 col-12">
                     <h2>about me</h2>
                     <h3>hello, so happy you're here!</h3>
                     <div class="about-p">
@@ -39,16 +34,16 @@
                     </div>
                     <div class="mediums">
                         <p id="info-code"><strong>Code:</strong></p>
-                        <p> Python, Java, C, HTML/CSS, Javascript</p>
+                        <p>HTML/CSS, Javascript, Python, Java</p>
                         <p><strong>Art:</strong></p>
                         <p>Adobe Photoshop, Digital/Film Photography, Collage, Pencil, Pen</p>
                     </div>
                 </div>
-                <div class="about-info2">
-                    <img src="media/self-drawing.png">
+                <div class="col-xl-6">
+                    <img src="media/self-drawing.png" id="self-drawing">
                 </div>
             </div>
-            <div class="powered-container">
+            <div class="powered-container row">
                 <div class="powered-by">
                     <p><strong>This site is powered by HTML/CSS, Javascript, a lot of caffeine, and this spotify playlist</strong></p>
                     <a onclick="javascript: window.open('https://open.spotify.com/playlist/5RHWChDKOvMi60u5VPZRYe?si=XD1R7RxnS827gJFpT0JkKA', '_blank');" class="link-cursor"><img src="media/spotifytag.png"></a>
@@ -61,7 +56,6 @@
         </div>
 
     </div>
-
 
     <script src="scriptsNav.js"></script>
 </body>
