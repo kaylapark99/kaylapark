@@ -3,10 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Kayla Park - Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
   <link rel="stylesheet" href="style-header.css">
   <link rel="stylesheet" href="style-art.css">
+  <title>Kayla Park - Art</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(function(){
@@ -15,87 +17,89 @@
   </script>
 </head>
 <body>
-    <div id="header"></div>
-    <div class="display-container">
-        <div class="slideshow-container">
-            <div class="spotify-buttons">
-                <a class="prev link-cursor" id="prev" onclick="plusSlides(-1)"><img src="media/previous.png"></a>
-                <img src="media/pausebutton.png" id="pause">
-                <a class="next link-cursor" id="next" onclick="plusSlides(1)"><img src="media/nextbutton.png"></a>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/free.jpg">
-                <div class="img-caption">
-                    <h1>Sleeping Lessons</h1>
-                    <p>The Shins</p>
+    <div class="container-fluid my-container">
+        <div id="header"></div>
+        <div class="display-container">
+            <div class="slideshow-container">
+                <div class="spotify-buttons">
+                    <a class="prev link-cursor" id="prev" onclick="plusSlides(-1)"><img src="media/previous.png"></a>
+                    <img src="media/pausebutton.png" id="pause">
+                    <a class="next link-cursor" id="next" onclick="plusSlides(1)"><img src="media/nextbutton.png"></a>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/free.jpg"class="photograph">
+                    <div class="img-caption">
+                        <h1>Sleeping Lessons</h1>
+                        <p>The Shins</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/deer.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>orange</h1>
+                        <p>CLAY</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/gardenPortrait.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Eyes</h1>
+                        <p>Rogue Wave</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/giraffeSunset.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Toothpaste Kisses</h1>
+                        <p>The Maccabees</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/sunTree.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Pluto Projector</h1>
+                        <p>Rex Orange County</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/sunsetPortrait.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Love Lost</h1>
+                        <p>The Temper Trap</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/arizona.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Agnes</h1>
+                        <p>Glass Animals</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/beachPortrait.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Ribs</h1>
+                        <p>Lorde</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/filmZoe.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>Big Black Car</h1>
+                        <p>Gregory Alan Isakov</p>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <img src="artwork/comforting/windowPortrait.jpg" class="photograph">
+                    <div class="img-caption">
+                        <h1>3 Rounds and a Sound</h1>
+                        <p>Blind Pilot</p>
+                    </div>
                 </div>
             </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/deer.jpg">
-                <div class="img-caption">
-                    <h1>orange</h1>
-                    <p>CLAY</p>
-                </div>
+            <div class="back-button">
+                <a onclick="javascript: window.location = 'art.html#sleeping-lessons';" class="link-cursor">return</a>
             </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/gardenPortrait.jpg">
-                <div class="img-caption">
-                    <h1>Eyes</h1>
-                    <p>Rogue Wave</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/giraffeSunset.jpg">
-                <div class="img-caption">
-                    <h1>Toothpaste Kisses</h1>
-                    <p>The Maccabees</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/sunTree.jpg">
-                <div class="img-caption">
-                    <h1>Pluto Projector</h1>
-                    <p>Rex Orange County</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/sunsetPortrait.jpg">
-                <div class="img-caption">
-                    <h1>Love Lost</h1>
-                    <p>The Temper Trap</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/arizona.jpg">
-                <div class="img-caption">
-                    <h1>Agnes</h1>
-                    <p>Glass Animals</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/beachPortrait.jpg">
-                <div class="img-caption">
-                    <h1>Ribs</h1>
-                    <p>Lorde</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/filmZoe.jpg">
-                <div class="img-caption">
-                    <h1>Big Black Car</h1>
-                    <p>Gregory Alan Isakov</p>
-                </div>
-            </div>
-            <div class="slides fade">
-                <img src="artwork/comforting/windowPortrait.jpg">
-                <div class="img-caption">
-                    <h1>3 Rounds and a Sound</h1>
-                    <p>Blind Pilot</p>
-                </div>
-            </div>
-        </div>
-        <div class="back-button">
-            <a onclick="javascript: window.location = 'art.html#sleeping-lessons';" class="link-cursor">return</a>
         </div>
     </div>
 

@@ -13,34 +13,41 @@
 }
 .spotify-buttons {
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
     left: 50%;
-    transform: translate(-50%, 0);
-    width: 250px;
-    min-height: 150px;
+    transform: translate(-50%,0);
 }
 
-.spotify-buttons a img {
-    width: 50px;
-    height: auto;
+.spotify-buttons a, #pause {
+    height: 100%;
+    width: 100%;
     transition: 0.4s;
 }
 
-.stop-hover {
+.spotify-buttons a img {
+    height: 100%;
+    width: 100%:
+}
+
+.spotify-buttons a {
     opacity: 0.5;
 }
 
-.hover-button {
+.spotify-buttons a:hover {
     opacity: 1;
+    transition: ease-in-out;
 }
 
-.prev {
-    position: relative;
+#prev {
+    position: absolute;
+    right: 100px;
 }
 
-.next {
-    position: relative;
-    left: 250px;
+#next {
+    position: absolute;
+    left: 100px;
 }
 
 .slideshow-container img {
@@ -97,6 +104,7 @@
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+    animation-fill-mode: forwards
   }
   
   @-webkit-keyframes fade {

@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Kayla Park - Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
   <link rel="stylesheet" href="style-header.css">
   <link rel="stylesheet" href="style-art.css">
@@ -15,7 +18,8 @@
   </script>
 </head>
 <body>
-    <div id="header"></div>
+    <div class="container-fluid my-container">
+        <div id="header"></div>
     <div class="display-container">
         <div class="slideshow-container">
             <div class="spotify-buttons">
@@ -24,56 +28,56 @@
                 <a class="next link-cursor" id="next" onclick="plusSlides(1)"><img src="media/nextbutton.png"></a>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/elliesHands.jpg">
+                <img src="artwork/depression/elliesHands.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Last Flowers</h1>
                     <p>Radiohead</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/bike.jpg">
+                <img src="artwork/depression/bike.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Trees</h1>
                     <p>Manchester Orchestra</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/portraits6.jpg">
+                <img src="artwork/depression/portraits6.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>9 Crimes</h1>
                     <p>Damien Rice</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/trapped.jpg">
+                <img src="artwork/depression/trapped.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Last Night I Dreamt That Sombody Loved Me</h1>
                     <p>The Smiths</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/portraits3.jpg">
+                <img src="artwork/depression/portraits3.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Street Spirit (Fade Out)</h1>
                     <p>Radiohead</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/filmGhost.jpg">
+                <img src="artwork/depression/filmGhost.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Addict</h1>
                     <p>CAIRO</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/josie.jpg">
+                <img src="artwork/depression/josie.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Moral of the Story</h1>
                     <p>Ashe</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/depression/filmLighter.JPG">
+                <img src="artwork/depression/filmLighter.JPG class="photograph"">
                 <div class="img-caption">
                     <h1>Tiny Vessels</h1>
                     <p>Death Cab for Cutie</p>
@@ -85,6 +89,7 @@
         </div>
     </div>
 
+    </div>
     <script src="scriptsNav.js"></script>
     <script src="scriptsSlide.js"></script>
 </body>

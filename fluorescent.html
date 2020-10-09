@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Kayla Park - Art</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Hind:wght@400;500;700&family=Istok+Web:wght@400;700&family=Khula:wght@400;800&display=swap" rel="stylesheet" type='text/css'>
   <link rel="stylesheet" href="style-header.css">
   <link rel="stylesheet" href="style-art.css">
@@ -15,7 +18,8 @@
   </script>
 </head>
 <body>
-    <div id="header"></div>
+    <div class="container-fluid my-container">
+        <div id="header"></div>
     <div class="display-container">
         <div class="slideshow-container">
             <div class="spotify-buttons">
@@ -24,70 +28,70 @@
                 <a class="next link-cursor" id="next" onclick="plusSlides(1)"><img src="media/nextbutton.png"></a>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/colorfulbird.jpg">
+                <img src="artwork/fluorescent/colorfulbird.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Fluorescent Adolescent</h1>
                     <p>Arctic Monkeys</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/alison4.jpg">
+                <img src="artwork/fluorescent/alison4.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/nature6.jpg">
+                <img src="artwork/fluorescent/nature6.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/sports1.jpg">
+                <img src="artwork/fluorescent/sports1.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/portraits7.jpg">
+                <img src="artwork/fluorescent/portraits7.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/ps3.jpg">
+                <img src="artwork/fluorescent/ps3.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/giraffes.jpg">
+                <img src="artwork/fluorescent/giraffes.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/milkshake.jpg">
+                <img src="artwork/fluorescent/milkshake.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/alison6.jpg">
+                <img src="artwork/fluorescent/alison6.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
                 </div>
             </div>
             <div class="slides fade">
-                <img src="artwork/fluorescent/mel.jpg">
+                <img src="artwork/fluorescent/mel.jpg" class="photograph">
                 <div class="img-caption">
                     <h1>Intro</h1>
                     <p>Odesza</p>
@@ -97,6 +101,7 @@
         <div class="back-button">
             <a onclick="javascript: window.location = 'art.html#fluorescent';" class="link-cursor">return</a>
         </div>
+    </div>
     </div>
 
     <script src="scriptsNav.js"></script>
