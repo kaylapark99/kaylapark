@@ -12,26 +12,6 @@
     height: 100%;
 }
 
-.name {
-    position: relative;
-    font-size: 6rem;
-    letter-spacing: 0.5rem;
-    z-index: 8;
-    top: 170px;
-    text-shadow: 4px 4px #8ae7ff;
-}
-
-#first-name {
-    position: absolute;
-    left: 5vw;
-}
-
-#last-name {
-    position: absolute;
-    right: 5vw;
-    top: 230px;
-}
-
 #sf-pics {
     margin-left: 100px;
     width: 60vw;
