@@ -22,19 +22,21 @@
 
 .about-info1 h2 {
     font-size: 4.5rem;
-    opacity: 0.3;
+    opacity: 0.2;
+    font-weight: 700;
 }
 
 .about-info1 h3 {
     position: relative;
-    top: -50px;
+    top: -45px;
     padding-bottom: -50px;
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .about-p p {
     position: relative;
-    top: -50px;
+    top: -20px;
     width: 90%;
     padding-bottom: 1vh;
 }
@@ -44,11 +46,6 @@
     top: -100px;
     width: 105%;
     display: none;
-}
-
-.mediums {
-    position: relative;
-    top: -50px;
 }
 
 .powered-container {
@@ -76,8 +73,6 @@
 }
 
 
-
-
 .side-img {
     position: absolute;
     right: 0;
@@ -90,11 +85,12 @@
 }
 
 .art-header {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .art-header-text {
     font-size: 2rem;
+    font-weight: 800;
     text-shadow: 1.5px 1.5px #8ae7ff;
 }
 
@@ -105,6 +101,7 @@
 .art-info {
     position: relative;
     font-size: 0.8rem;
+    padding-top: 50px;
 }
 
 .art-container {
@@ -137,6 +134,7 @@
 .art-section-info h2 a {
     position: relative;
     font-size: 1rem;
+    font-weight: 600;
     text-shadow: 1.25px 1.25px #8ae7ff;
     color: white;
     transition: 0.4s;
@@ -276,7 +274,19 @@
         padding: 25px;
     }
 
+    .art-container {
+        padding-top: 200px;
+    }
+
     .art-section-info h2 a {
         font-size: 2rem;
+    }
+
+    .section-photo {
+        width: 80%;
+    }
+
+    .right {
+        float: right;
     }
 }
