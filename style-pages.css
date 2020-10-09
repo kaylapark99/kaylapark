@@ -80,15 +80,15 @@
     width: 50vw;
 }
 
-.art-intro {
+.code-art-intro {
     display: inline-block;
 }
 
-.art-header {
+.code-art-header {
     padding-top: 100px;
 }
 
-.art-header-text {
+.code-art-header-text {
     font-size: 2rem;
     font-weight: 800;
     text-shadow: 1.5px 1.5px #8ae7ff;
@@ -98,7 +98,7 @@
     text-decoration: line-through;
 }
 
-.art-info {
+.code-art-info {
     position: relative;
     font-size: 0.8rem;
     padding-top: 50px;
@@ -212,7 +212,7 @@
         width: 75%
     }
 
-    .art-info {
+    .code-art-info {
         font-size: 1rem;
     }
 
@@ -220,7 +220,7 @@
         top: 50px;
     }
 
-    .art-header-text {
+    .code-art-header-text {
         font-size: 3rem;
     }
 
@@ -243,7 +243,7 @@
         top: 40px;
     }
 
-    .art-header-text {
+    .code-art-header-text {
         font-size: 4rem;
     }
 

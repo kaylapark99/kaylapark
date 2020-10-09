@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kayla Park - Art</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="style-header.css">
   <link rel="stylesheet" href="style-pages.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -14,30 +15,35 @@
   </script>
 </head>
 <body>
+  <div class="container-fluid my-container">
     <div id="header"></div>
-    <div class="main-pages">
-      <img src="media/computer.png" class="side-img" id="computer">
-      
-      <div class="main-container">
-        <div class="art-intro">
-          <div class="pages-header art-header">
-            <h1>/*code*/</h1>
-          </div>
-          <div class="art-info">
-            <p>
-              In seventh grade, I stole my mom's DSLR to pursue my passion for photography. Not going to lie, 
-              those photos were terrible. Very terrible. Despite how awful those photos were, my parents saw potential 
-              and bought me my own Nikon, and I still use the same camera today. I eventually began to dapple with film photography and sketching.
-            </p>
-          </div>
+    <img src="media/computer.png" class="side-img" id="computer">
+    <div class="main-container">
+      <div class="code-art-intro row">
+        <div class="pages-header code-art-header col-xl-6 col-md-8 col-sm-10 col-12">
+          <h1 class="code-art-header-text">/*code*/</h1>
+        </div>
+        <div class="code-art-info col-xl-6 col-md-8 col-sm-10 col-12">
+          <p>
+            I am very passionate about the problem solving, technical, and creative aspect of building meaningful web projects. 
+            I am in the process of adding responsive design to my portfolio site which utilizes HTML/CSS and 
+            Javascript: https://kaylapark99.github.io/. This site includes Bootstrap, event listeners, key frames, media queries, 
+            mouseovers, SVGs, and a plethora of other features. I am able to quickly and efficiently learn new skills and 
+            am currently experimenting with MySQL and REST APIs. In addition to web development, I have studied Python, 
+            Java, and C and became a Python Teaching Assistant. I learned how to utilize and analyze efficient data structures 
+            that handle large databases. The combination of my technical and artistic talents enables me to create aesthetically 
+            pleasing, interactive, user-friendly interfaces.    	
+
+          </p>
         </div>
       </div>
-
-
-      <div class="back-button">
-        <a onclick="javascript: window.location = 'index.html#code-link';" class="link-cursor">return</a>
-      </div>
     </div>
+
+
+    <div class="back-button">
+      <a onclick="javascript: window.location = 'index.html#code-link';" class="link-cursor">return</a>
+    </div>
+  </div>
     
     <script src="scriptsNav.js"></script>
 </body>
