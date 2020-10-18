@@ -157,6 +157,11 @@
     font-weight: 700;
 }
 
+.code-art-creations {
+    width: 100%;
+    margin: 0;
+}
+
 .code a {
     color: white;
 }
