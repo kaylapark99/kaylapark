@@ -12,7 +12,7 @@
 }
 .spotify-buttons {
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     height: 40px;
     width: 40px;
     left: 50%;
@@ -50,30 +50,28 @@
 }
 
 .slideshow-container img {
-    position: absolute;
+    width: auto;
+    height: 60vh;
+}
+
+.photograph {
+    position: relative;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-.photograph {
-    width: 100%;
-    height: auto;
-}
-
 .img-caption {
-    position: absolute;
-    bottom: 8vh;
-    margin-left: 50px;
+    margin-top: 5vh;
 }
 
 .img-caption h1 {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .img-caption p {
     color: #aaaaaa;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 .back-button {
