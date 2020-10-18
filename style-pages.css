@@ -104,7 +104,7 @@
     padding-top: 50px;
 }
 
-.art-container {
+.code-art-container {
     padding-top: 100px;
 }
 
@@ -116,7 +116,7 @@
     margin-bottom: 20px;
 }
 
-.art-section-info {
+.code-art-section-info {
     position: relative;
     z-index: 9;
     background-color: black;
@@ -129,9 +129,10 @@
 
 .context {
     margin: 5px;
+    color: white;
 }
 
-.art-section-info h2 a {
+.code-art-section-info h2 a {
     position: relative;
     font-size: 1rem;
     font-weight: 600;
@@ -140,13 +141,13 @@
     transition: 0.4s;
 }
 
-.art-section-info h2 a:hover {
+.code-art-section-info h2 a:hover {
     color: #8ae7ff;
     text-shadow: none;
     transition: 0.4s;
 }
 
-.art-section-info a img{
+.code-art-section-info a img{
     width: 90%;
 }
 
@@ -191,12 +192,12 @@
         margin-bottom: 50px;
     }
 
-    .art-section-info {
+    .code-art-section-info {
         top: 50px;
         margin: 0;
     }
 
-    .art-section-info h2 a {
+    .code-art-section-info h2 a {
         font-size: 1.3rem;
     }
 
@@ -224,7 +225,7 @@
         font-size: 3rem;
     }
 
-    .art-section-info {
+    .code-art-section-info {
         top: 125px;
     }
 }
@@ -247,7 +248,7 @@
         font-size: 4rem;
     }
 
-    .art-section-info h2 a {
+    .code-art-section-info h2 a {
         font-size: 1.7rem;
     }
 
@@ -255,7 +256,7 @@
         padding: 20px;
     }
 
-    .art-section-info {
+    .code-art-section-info {
         top: 200px;
     }
 }
@@ -274,12 +275,12 @@
         padding: 25px;
     }
 
-    .art-container {
+    .code-art-container {
         padding-top: 200px;
     }
 
-    .art-section-info h2 a {
-        font-size: 2rem;
+    .code-art-section-info h2 a {
+     font-size: 2rem;
     }
 
     .section-photo {
