@@ -12,9 +12,9 @@
 }
 .spotify-buttons {
     position: absolute;
-    bottom: 0px;
-    height: 40px;
-    width: 40px;
+    bottom: 25vh;
+    height: 35px;
+    width: 35px;
     left: 50%;
     transform: translate(-50%,0);
 }
@@ -51,7 +51,8 @@
 
 .slideshow-container img {
     width: auto;
-    height: 60vh;
+    height: 30vh;
+    margin-top: 10vh;
 }
 
 .photograph {
@@ -115,9 +116,35 @@
     to {opacity: 1}
   }
 
+  @media (min-width: 576px) {
+    .slideshow-container img {
+        height: 40vh;
+    }
+    .spotify-buttons {
+        bottom: 15vh;
+    }
+  }
+
+  @media (min-width: 768px) { 
+    .slideshow-container img {
+        height: 50vh;
+        margin-top: 0;
+    }
+
+    .spotify-buttons {
+        height: 40px;
+        width: 40px;
+        bottom: 5vh;
+    }
+  }
+
   @media (min-width: 992px) { 
-    .photograph {
-        width: 80%;
+    .slideshow-container img {
+        height: 60vh;
+    }
+
+    .spotify-buttons {
+        bottom: 0;
     }
   }
 
