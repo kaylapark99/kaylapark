@@ -81,8 +81,15 @@
     margin-bottom: 50px;
 }
 
+.mission-bio p {
+    margin-bottom: 30px;
+}
+
 .mission p {
     width: 250px;
+}
+
+.last-links {
     margin: 0;
 }
 
