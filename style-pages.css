@@ -287,11 +287,11 @@
 
 @media (min-width: 992px) { 
     .about-info1 h2 {
-        font-size: 6.5rem;
+        font-size: 6rem;
     }
 
     .about-info1 h3 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         top: -60px;
     }
 
@@ -317,7 +317,7 @@
     }
 
     .code-art-header-text {
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
 
     .code-art-section-info h2 a {
@@ -357,7 +357,7 @@
     }
 
     .code-art-info p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-bottom: 35px;
     }
 
@@ -370,17 +370,17 @@
     }
 
     .code-art-section-info h2 a {
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-bottom: 5px;
     }
 
     .code-art-section-info h5 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-bottom: 35px;
     }
     
     .code-art-section-info p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .section-photo {
