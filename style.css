@@ -325,11 +325,11 @@
 
 @media (min-width: 992px) { 
     #name {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     #type-creations {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
 
 
@@ -338,16 +338,16 @@
     }
 
     .mission-text h4 {
-        font-size: 3.4rem;
+        font-size: 3rem;
         margin-bottom: 50px;
     }
 
     .mission-text p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .creation-text {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .creation-border {
@@ -356,7 +356,7 @@
     }
 
     .contact-text h6 {
-        font-size: 3.4rem;
+        font-size: 3.1rem;
     }
 
     .contact-intro h6 {
@@ -364,7 +364,7 @@
     }
 
     .contact-text p {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .socials img {

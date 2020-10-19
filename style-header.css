@@ -44,7 +44,7 @@ header {
 header h3 a {
     color: var(--mainColor);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
   
 header a:hover {
@@ -135,7 +135,7 @@ header a:hover {
 .nav-options {
     list-style-type: none;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     position: absolute;
     width: 100vw;
