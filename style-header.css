@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 10px;
 }
 
@@ -66,7 +66,7 @@ header a:hover {
 }
 
 .nav-link {
-    width: 60px;
+    width: 55px;
     float: right;
 }
 
@@ -136,7 +136,7 @@ header a:hover {
 .nav-options {
     list-style-type: none;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 800;
     position: absolute;
     width: 100vw;
