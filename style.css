@@ -46,20 +46,8 @@
 
 #type-creations {
     font-size: 1.3rem; 
+    color: white;
 }
-
-.blink {
-    animation: blink 0.5s infinite;
-  }
-  @keyframes blink{
-    to { opacity: .0; }
-  }
-  .flex {
-      display: flex;
-  }
-  .header-sub-title {
-    color: #fff;
-  }
 
 .mission {
     z-index: 3;
@@ -171,7 +159,7 @@
 }
 
 .creation-hover {
-    border-radius: 150px;
+    border-radius: 250px;
     color: #8ae7ff;
     border-color: #8ae7ff;
     box-shadow: none;
@@ -333,24 +321,47 @@
         font-size: 6rem;
     }
 
+    #type-creations {
+        font-size: 2.7rem;
+    }
+
+
+    .mission p {
+        width: 500px;
+    }
+
     .mission-text h4 {
-        font-size: 3rem;
+        font-size: 3.4rem;
+        margin-bottom: 50px;
     }
 
     .mission-text p {
-        font-size: 1.1rem;
-    }
-
-    .contact-text h6 {
-        font-size: 2.8rem;
-    }
-
-    .contact-text p {
         font-size: 1.3rem;
     }
 
+    .creation-text {
+        font-size: 6rem;
+    }
+
+    .creation-border {
+        width: 350px;
+        height: 350px;
+    }
+
+    .contact-text h6 {
+        font-size: 3.4rem;
+    }
+
+    .contact-intro h6 {
+        margin: 50px 0;
+    }
+
+    .contact-text p {
+        font-size: 1.6rem;
+    }
+
     .socials img {
-        width: 50px;
-        margin: 0 10px;
+        width: 60px;
+        margin: 0 15px;
     }
 }

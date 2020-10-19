@@ -1,4 +1,4 @@
-var words = ["of beautiful user experiences", "of effective/efficient code", "of some dope art", "of various spotify playlists"];
+var words = ["of user-friendly interfaces", "of simple yet bold designs", "of aesthetically pleasing digital art", "of various spotify playlists"];
 let i = 0, timer = 0;
 
 var leftCode = document.getElementById("leftCode"), rightArt = document.getElementById("rightArt");
@@ -13,9 +13,9 @@ function typingEffect() {
 			deletingEffect();
 			return false;
 		};
-		timer = setTimeout(loopTyping, 225);
+		timer = setTimeout(loopTyping, 200);
 	};
-	loopTyping();
+	setTimeout(loopTyping,500);
 };
 
 function deletingEffect() {
@@ -35,7 +35,7 @@ function deletingEffect() {
 		};
 		timer = setTimeout(loopDeleting, 100);
 	};
-	loopDeleting();
+	setTimeout(loopDeleting,2000);
 };
 
 typingEffect();

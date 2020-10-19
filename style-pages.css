@@ -263,6 +263,11 @@
         top: 50px;
     }
 
+    .art-info a img {
+        width: 80%;
+        margin: 5px 0;
+    }
+
     .code-art-header-text {
         font-size: 3rem;
     }
@@ -270,6 +275,10 @@
     .art-info {
         top: 125px;
     }
+
+    .art-info h2 a {
+        font-size: 1.3rem;
+    }   
 
     .code-info {
         margin: 0;
@@ -303,6 +312,10 @@
         top: 40px;
     }
 
+    .art-info h2 {
+        margin-bottom: 35px;
+    }
+
     .code-art-header-text {
         font-size: 4rem;
     }
@@ -325,7 +338,7 @@
     }
 
     .art-info {
-        top: 200px;
+        top: 100px;
     }
 }
 
@@ -343,16 +356,31 @@
         padding: 25px;
     }
 
+    .code-art-info p {
+        font-size: 1.3rem;
+        margin-bottom: 35px;
+    }
+
     .code-art-container {
         padding-top: 300px;
     }
 
+    .art-info {
+        top: 200px;
+    }
+
     .code-art-section-info h2 a {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+    }
+
+    .code-art-section-info h5 {
+        font-size: 1.4rem;
+        margin-bottom: 35px;
     }
     
     .code-art-section-info p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .section-photo {
