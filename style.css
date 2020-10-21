@@ -325,11 +325,11 @@
 
 @media (min-width: 992px) { 
     #name {
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
 
     #type-creations {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
 
@@ -338,16 +338,16 @@
     }
 
     .mission-text h4 {
-        font-size: 2.7rem;
+        font-size: 3rem;
         margin-bottom: 50px;
     }
 
     .mission-text p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .creation-text {
-        font-size: 4.5rem;
+        font-size: 90px;
     }
 
     .creation-border {
@@ -356,7 +356,7 @@
     }
 
     .contact-text h6 {
-        font-size: 50px;
+        font-size: 2.5rem;
     }
 
     .contact-intro h6 {
@@ -364,11 +364,30 @@
     }
 
     .contact-text p {
-        font-size: 25px;
+        font-size: 1rem;
     }
 
     .socials img {
-        width: 60px;
+        width: 50px;
         margin: 0 15px;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    #name {
+        font-size: 6rem;
+    }
+    #type-creations {
+        font-size: 3rem;
+    }
+    .contact-text h6 {
+        font-size: 3rem;
+    }
+    .contact-text p {
+        font-size: 1.4rem;
+    }
+    .socials img {
+        width: 60px;
     }
 }
