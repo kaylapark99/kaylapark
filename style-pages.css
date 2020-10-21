@@ -48,9 +48,13 @@
     display: none;
 }
 
+.mediums .title {
+    padding-top: 25px;
+}
+
 .powered-container {
     position: relative;
-    height: 100vh;
+    height: 105vh;
 }
 
 .powered-by {
