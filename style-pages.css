@@ -11,6 +11,7 @@
     position: relative;
     top: 25px;
     width: 100vw;
+    height: auto;
     z-index: 1;
 }
 
