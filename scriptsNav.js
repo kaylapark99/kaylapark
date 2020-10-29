@@ -33,5 +33,7 @@ function openAbout() {
 function displayNav(item, x, opc) {
     item.style.transition = '0.9s';
     item.style.opacity = opc;
-    item.innerHTML = x;
+    if(window.innerWidth > 450) {
+        item.innerHTML = x;
+    }
 }
