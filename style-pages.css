@@ -171,7 +171,7 @@
 }
 
 .code-section, .art-section {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #galaga {
@@ -185,7 +185,7 @@
 
 .back-button a {
     margin: 10px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: black;
     text-shadow: 1px 1px #8ae7ff;
     transition: 0.4s;
@@ -242,6 +242,10 @@
     .art-info {
         top: 50px;
         margin: 0;
+    }
+
+    .code-section, .art-section {
+        margin-bottom: 50px;
     }
 
     .code-art-section-info h2 a{
@@ -301,8 +305,25 @@
         font-size: 1.3rem;
     }   
 
+    .code-art-section-info h5 {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    }
+
+    .code-art-section-info p {
+        font-size: 1rem;
+    }
+
+    .section-photo {
+        margin-top: 50px;
+    }
+
     .code-info {
         margin: 0;
+    }
+
+    .back-button a {
+        font-size: 1.3rem;
     }
 }
 
@@ -337,21 +358,12 @@
         margin-bottom: 35px;
     }
 
+    .section-photo {
+        margin-top: 0;
+    }
+
     .code-art-header-text {
         font-size: 3.6rem;
-    }
-
-    .code-art-section-info h2 a {
-        font-size: 1.6rem;
-    }
-
-    .code-art-section-info h5 {
-        font-size: 1.2rem;
-        padding-bottom: 15px;
-    }
-
-    .code-art-section-info p {
-        font-size: 0.8rem;
     }
 
     .context {
@@ -396,16 +408,16 @@
     }
 
     .code-art-section-info h5 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-bottom: 35px;
     }
     
     .code-art-section-info p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .section-photo {
-        width: 80%;
+        width: 90%;
     }
 
     .right {
