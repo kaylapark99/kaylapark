@@ -1,4 +1,4 @@
-var words = ["of user-friendly interfaces", "of simple yet bold designs", "of aesthetically pleasing digital art", "of various spotify playlists"];
+var words = ["of user-friendly interfaces", "of efficient technological solutions", "of bold and effective designs", "of aesthetically pleasing art", "of various spotify playlists", "of amazing breakfast sandwiches"];
 let i = 0, timer = 0;
 
 var leftCode = document.getElementById("leftCode"), rightArt = document.getElementById("rightArt");
@@ -13,7 +13,7 @@ function typingEffect() {
 			deletingEffect();
 			return false;
 		};
-		timer = setTimeout(loopTyping, 200);
+		timer = setTimeout(loopTyping, 100);
 	};
 	setTimeout(loopTyping,500);
 };
@@ -33,14 +33,15 @@ function deletingEffect() {
 			typingEffect();
 			return false;
 		};
-		timer = setTimeout(loopDeleting, 100);
+		timer = setTimeout(loopDeleting, 50);
 	};
 	setTimeout(loopDeleting,2000);
 };
 
 typingEffect();
 
-[leftCode, rightArt].forEach(function(element){
+if(window.innerWidth > 450) {
+	[leftCode, rightArt].forEach(function(element){
 	var codeDrawing = document.getElementById("code-drawing"), artDrawing = document.getElementById("art-drawing"),
 	codeLink = document.getElementById("code-link"), artLink = document.getElementById("art-link");
     element.addEventListener("mouseover", function() {
@@ -65,5 +66,6 @@ typingEffect();
 			artDrawing.src = "media/right.png";
 			artLink.style.color = "black";
         }
-    });
-});
+    	});
+	});
+}
