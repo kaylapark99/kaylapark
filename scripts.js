@@ -1,4 +1,4 @@
-var words = ["of user-friendly interfaces", "of efficient technological solutions", "of bold and effective designs", "of aesthetically pleasing art", "of various spotify playlists", "of amazing breakfast sandwiches"];
+var words = ["of efficient technological solutions", "of interactive user-experiences", "of bold and effective designs", "of aesthetically pleasing art", "of various spotify playlists", "of amazing breakfast sandwiches"];
 let i = 0, timer = 0;
 
 var leftCode = document.getElementById("leftCode"), rightArt = document.getElementById("rightArt");

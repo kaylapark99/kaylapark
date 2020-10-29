@@ -192,6 +192,17 @@
     color: #8ae7ff;
 }
 
+#old-site a {
+    color: black;
+    text-shadow: 1px 1px #8ae7ff;
+}
+
+#old-site a:hover {
+    text-shadow: none;
+    transition: 0.4s;
+    color: #8ae7ff;
+}
+
 
 
 
